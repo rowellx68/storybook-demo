@@ -1,0 +1,42 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import CollapsibleButton from 'components/CollapsibleSidebar/CollapsibleButton';
+
+<Meta
+  title='CollapsibleSidebar/CollapsibleButton/Docs'
+  component={CollapsibleButton}
+/>
+
+# CollapsibleButton
+
+The `CollapsibleButton` allows us to define a button with a different icons for the collapsed and expanded states. Optionally, this component also accepts a `label` to be displayed when it is expanded.
+
+When the button is collapsed, it could look something like this:
+
+<Story id='collapsiblesidebar-collapsiblebutton--collapsed' />
+
+When the button is expanded, it could look something like this:
+
+<Story id='collapsiblesidebar-collapsiblebutton--expanded' />
+
+Both the examples above uses the ID of our existing "stories" to render them in our documentation, we could also write stories inline.
+
+<Preview>
+  <Story name='Documentation Example'>
+    <div>
+      <CollapsibleButton
+        expanded={false}
+        icon='las la-fw la-ship'
+        onClick={() => null}
+      />
+      <br />
+      <CollapsibleButton
+        expanded={true}
+        icon='las la-fw la-ship'
+        label='Projects'
+        onClick={() => null}
+      />
+    </div>
+  </Story>
+</Preview>
+
+Using the `Preview` component for the stories gives you the ability see how the component was used! 🎉

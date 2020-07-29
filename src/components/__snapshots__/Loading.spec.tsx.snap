@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loading renders the correct mark-up 1`] = `
+@keyframes animation-0 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.emotion-0 {
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+.emotion-0 i {
+  -webkit-animation: animation-0 1s ease-out infinite;
+  animation: animation-0 1s ease-out infinite;
+  font-size: 1.5rem;
+  opacity: 0.5;
+}
+
+<Loading>
+  <div
+    className="emotion-0"
+  >
+    <i
+      className="las la-fw la-sync"
+    />
+  </div>
+</Loading>
+`;
+
+exports[`Loading renders the correct mark-up with custom spinner 1`] = `
+@keyframes animation-0 {
+  from {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.emotion-0 {
+  padding: 0.5rem;
+  display: inline-block;
+}
+
+.emotion-0 i {
+  -webkit-animation: animation-0 1s ease-out infinite;
+  animation: animation-0 1s ease-out infinite;
+  font-size: 1.5rem;
+  opacity: 0.5;
+}
+
+<Loading>
+  <div
+    className="emotion-0"
+  >
+    <i
+      className="las la-fw la-cog"
+    />
+  </div>
+</Loading>
+`;

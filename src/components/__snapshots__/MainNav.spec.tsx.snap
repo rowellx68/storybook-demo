@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainNav renders the correct mark-up 1`] = `
+.emotion-4 {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
+  background-color: var(--primary);
+  height: 50px;
+  z-index: 1;
+  -webkit-transition: background-color 200ms ease-in;
+  transition: background-color 200ms ease-in;
+}
+
+.emotion-0 {
+  color: #ffffff;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 1.25rem;
+}
+
+<MainNav>
+  <nav
+    className="emotion-4"
+  >
+    <NavLink
+      className="emotion-0"
+      exact={true}
+      to="/"
+    >
+      <Link
+        aria-current="page"
+        className="emotion-0 active"
+        style={Object {}}
+        to={
+          Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": null,
+          }
+        }
+      >
+        <LinkAnchor
+          aria-current="page"
+          className="emotion-0 active"
+          href="/"
+          navigate={[Function]}
+          style={Object {}}
+        >
+          <a
+            aria-current="page"
+            className="emotion-0 active"
+            href="/"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            Holiday Planner
+          </a>
+        </LinkAnchor>
+      </Link>
+    </NavLink>
+  </nav>
+</MainNav>
+`;

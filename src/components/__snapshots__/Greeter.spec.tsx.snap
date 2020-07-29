@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Greeter renders the correct greeting - afternoon 1`] = `
+.emotion-0 {
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+}
+
+@media screen and (min-width:640px) {
+  .emotion-0 {
+    font-size: 2rem;
+  }
+}
+
+<Greeter
+  name="John"
+>
+  <div
+    className="emotion-0"
+  >
+    <h1>
+      Good 
+      afternoon
+      , 
+      John
+      !
+    </h1>
+  </div>
+</Greeter>
+`;
+
+exports[`Greeter renders the correct greeting - evening 1`] = `
+.emotion-0 {
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+}
+
+@media screen and (min-width:640px) {
+  .emotion-0 {
+    font-size: 2rem;
+  }
+}
+
+<Greeter
+  name="John"
+>
+  <div
+    className="emotion-0"
+  >
+    <h1>
+      Good 
+      evening
+      , 
+      John
+      !
+    </h1>
+  </div>
+</Greeter>
+`;
+
+exports[`Greeter renders the correct greeting - morning 1`] = `
+.emotion-0 {
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+}
+
+@media screen and (min-width:640px) {
+  .emotion-0 {
+    font-size: 2rem;
+  }
+}
+
+<Greeter
+  name="John"
+>
+  <div
+    className="emotion-0"
+  >
+    <h1>
+      Good 
+      morning
+      , 
+      John
+      !
+    </h1>
+  </div>
+</Greeter>
+`;
